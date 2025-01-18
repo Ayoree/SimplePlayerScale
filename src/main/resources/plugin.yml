@@ -1,0 +1,24 @@
+name: '${project.name}'
+version: '${project.version}'
+main: '${project.groupId}.${project.artifactId}.${project.name}'
+api-version: '1.21'
+author: Ayoree
+description: Плагин добавляющий серверную настройку размера игрока
+prefix: PlayerScale
+softdepend:  [WorldGuard, ViaVersion]
+
+commands:
+  playerscale:
+    description: Команда плагина PlayerScale
+    usage: "Использование - /pscale <число>"
+    aliases:
+      - pscale
+
+permissions:
+  playerscale.set:
+    description: Позволяет менять размер персонажа
+    default: not op
+
+  playerscale.reload:
+    description: Позволяет перезагружать конфиг плагина
+    default: op
