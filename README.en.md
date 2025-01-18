@@ -63,7 +63,7 @@ scale-change-msg: '§aYou have set your size to {scale}'
 # Message displayed when there is a syntax error in the command.
 incorrect-args-msg: '§cSyntax error§e - use §l/pscale <number>'
 
-# Message displayed when reloading config (/vd reload).
+# Message displayed when reloading config (/pscale reload).
 reload-config-msg: '§aConfig successfully reloaded'
 
 # Message displayed when lacking permission to execute the command.
